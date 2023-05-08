@@ -1,0 +1,91 @@
+body{
+    background: url(background5.jpg);
+    
+}
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Comic Sans MS;
+}
+.button1{
+    background-color: rgb(114, 0, 89);
+    
+} 
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 0, 36);}
+    .item1 {
+        grid-area: header1;
+    }
+
+    .item2 {
+        grid-area: header2;
+    }
+
+    .item3 {
+        grid-area: menu;
+    }
+    .item4 {
+        grid-area: menu2;
+    }
+
+    .item5 {
+        grid-area: main;
+    }
+    .item6 {
+        grid-area: main2;
+    }
+
+    .item7 {
+        grid-area: right;
+    }
+    .item8{
+        grid-area: right2;
+    }
+    .item9{
+        grid-area: footer;
+    }
+    .item10{
+        grid-area: footer2;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            '. . . header1 header2 . '
+            '. menu menu2 . . .'
+            '. . . main main2  .'
+            '. . right right2  . .'
+            '. . . . footer footer2 ';
+        gap: 10px;
+        padding: 10px 100px 100px 50px;
+        background: url(background6.png);
+    }
+
+    .grid-container>div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 24px;
+        color: rgb(114, 0, 89);
+        font-family: Comic Sans MS;
+        
+    }
+    .informacja {
+        padding: 100px 100px 100px 100px;
+    }
+    h1{
+        font-size: 36px;
+        text-align: center;
+        color: #fffbf6;
+        background-color:rgb(114, 0, 89) ;
+        margin: 0 10px 100px 10px;
+        padding: 50px 50px 50px 50px;
+        font-family: Comic Sans MS;
+    }
